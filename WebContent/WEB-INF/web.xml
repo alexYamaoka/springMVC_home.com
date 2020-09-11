@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>dad-frontController</display-name>
+    <servlet-name>dad-frontController</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dad-frontController</servlet-name>
+    <url-pattern>/home.com/*</url-pattern>
+  </servlet-mapping>
 </web-app>
