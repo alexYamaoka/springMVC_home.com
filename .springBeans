@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>WebContent/WEB-INF/dad-frontController-servlet.xml</config>
+		<config>WebContent/WEB-INF/dad-frontController-dispatcher-servlet.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
