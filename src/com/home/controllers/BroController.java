@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class BroController {
 	
-	@ResponseBody
+	//@ResponseBody
 	@RequestMapping("/cricketBat")
 	public String giveCricketBat() {
-		return "Ok, here is your cricket bat";
+		return "/WEB-INF/view/MRFCricketbat.jsp";
 	}
 }
