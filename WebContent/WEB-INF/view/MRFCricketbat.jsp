@@ -7,6 +7,6 @@
 <title>MRF Cricket Bat</title>
 </head>
 <body>
-	<h1>MRF Cricket Bat</h1>
+	<h1>MRF Cricket Bat web page</h1>
 </body>
 </html>
