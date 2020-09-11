@@ -10,8 +10,7 @@ public class BroController {
 	
 	@ResponseBody
 	@RequestMapping("/cricketBat")
-	public String giveCricketBat()
-	{
+	public String giveCricketBat() {
 		return "Ok, here is your cricket bat";
 	}
 }

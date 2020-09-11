@@ -9,8 +9,7 @@ public class MomController {
 
 	@ResponseBody
 	@RequestMapping("/sugar")
-	public String giveSugar()
-	{
+	public String giveSugar() {
 		return "Ok, here is your sugar";
 	}
 }
