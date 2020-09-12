@@ -17,8 +17,5 @@
 			<input type="submit" value="order now">
 		</div>
 	</form>
-	
-	
-	
 </body>
 </html>

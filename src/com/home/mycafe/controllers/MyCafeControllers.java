@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MyCafeControllers {
 	
+	
+	
+	// return the welcome page
 	@RequestMapping("/cafe")
 	public String showWelcomePage(Model model) {
 		
@@ -16,5 +19,12 @@ public class MyCafeControllers {
 		
 		return "welcome-page";
 	}
+	
+	
+	@RequestMapping("/processOrder")
+	public String processOrder() {
+		return "process-order";
+	}
+	
 	
 }
