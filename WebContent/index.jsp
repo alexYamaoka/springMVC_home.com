@@ -3,17 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-		span{
-			color:red;
-			font-family: arial;
-		}
-	</style>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Order Received!</h1>
-	Your order <span>${userInput}</span> is getting processed.....
+	<h1 align="center">Welcome to home.com</h1>
+	<hr>
+	<a href="home.com/cafe">link to Mom's cafe</a>
 </body>
 </html>
