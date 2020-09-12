@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Welcome</title>
 </head>
 <body>
 	<h1>Mom's Cafe</h1>
+	<hr>
+	My Name is: ${myNameValue}
 </body>
 </html>
