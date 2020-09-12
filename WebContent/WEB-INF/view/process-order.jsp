@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h1>Order Received!</h1>
-	Your order is getting processed.....
+	Your order ${userInput} is getting processed.....
 </body>
 </html>
