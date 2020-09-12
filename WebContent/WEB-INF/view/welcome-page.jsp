@@ -7,8 +7,18 @@
 <title>Welcome</title>
 </head>
 <body>
-	<h1>Mom's Cafe</h1>
+	<h1 align="center">${myWebsiteTitle} </h1>
 	<hr>
-	My Name is: ${myNameValue}
+	
+	<form action="processOrder">
+		<div align="center">
+			<label for="item_name">Item Name: </label>
+			<input type="text" name="foodType" id=item_name placeholder="food type?">
+			<input type="submit" value="order now">
+		</div>
+	</form>
+	
+	
+	
 </body>
 </html>

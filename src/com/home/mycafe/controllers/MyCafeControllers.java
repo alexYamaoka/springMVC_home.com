@@ -11,8 +11,8 @@ public class MyCafeControllers {
 	public String showWelcomePage(Model model) {
 		
 		// sending data to view/jsp page
-		String myName = "Alex";
-		model.addAttribute("myNameValue", myName);
+		model.addAttribute("myWebsiteTitle", "Mom's cafe");
+		
 		
 		return "welcome-page";
 	}
